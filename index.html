@@ -3,18 +3,12 @@
     <head>
         <meta charset="utf-8" />
         <title>Aanya's first web 😱</title>
-          <style>
-                div.gallery {display: flex;flex-wrap: wrap;justify-content: flex-start;}
-                div.gallery-item {margin: 10px;border: 1px solid #f3c026;width: 180px;}
-                div.gallery-item:hover {border: 2px solid #de8735;}
-                div.gallery-item img {width: 100%;height: auto;}
-                div.gallery-item div.desc {padding: 15px;text-align: center;}
-            </style>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header class="hero">
             <h1>Hiya!! Im Aanya</h1>
-                  <p class="tagline">currently learning about six to seven (⁶🤷⁷) things</p>
+                  <p class="tagline">currently learning about six to seven <em>(⁶🤷⁷)</em></p>
         </header>
         <main>
             <section class="card">
@@ -28,7 +22,7 @@
             <section class="card">
                 <h2>My hobbies</h2>
                 <ul>
-                <li>Playing Music <em>( i can play about 5 instrumeents,6 if you count the ime i plyed the glockenspiel)</em>
+                <li>Playing Music <em>( i can play about 5 instrumeents,6 if you count the time i played the glockenspiel)</em>
                     <ul>
                     <li><em>Flute</em></li>
                     <li><em>Piccolo</em></li>
@@ -37,8 +31,8 @@
                     <li><em>Keyboard</em></li>
                     </ul>
                 </li>
-                <li>Any craft related to fashion (eg.sewing,crochet and so on)</li>
-                <li>ASTROPHOTOGRAPHY</li>
+                <li>Any craft related to fashion <em>(eg.sewing,crochet and so on)</em></li>
+                <li><strong>ASTROPHOTOGRAPHY</strong></li></li>
                 </ul>
             </section>
             <section class="card">
@@ -53,34 +47,34 @@
                 <h2>Image Gallery</h2>
                 <div class="gallery">
                 <div class="gallery-item">
-                <a target="_blank" href="img_5terre.jpg">
-                    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+                <a target="_blank" href="images/dragon.jpg">
+                    <img src="images/dragon.jpg" alt="NGC 6164" height="300" width="450">
                 </a>
-                <div class="desc">Cinque Terre</div>
+                <div class="desc">NGC 6164-The Dragon's Egg Nebula</div>
                 </div>
                 <div class="gallery-item">
-                <a target="_blank" href="img_forest.jpg">
-                    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+                <a target="_blank" href="images/firebird.jpg">
+                    <img src="images/firebird.jpg" alt="NGC 6188" height="300" width="450">
                 </a>
-                <div class="desc">Green Forest</div>
+                <div class="desc">NGC 6188-The Firebird Nebula</div>
                 </div>
                 <div class="gallery-item">
-                <a target="_blank" href="img_lights.jpg">
-                    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                <a target="_blank" href="images/statueol.jpg">
+                    <img src="images/statueol.jpg" alt="NGC 3576" height="300" width="450">
                 </a>
-                <div class="desc">Northern Lights</div>
+                <div class="desc">NGC 3576-The Statue of Liberty Nebula</div>
                 </div>
-                <div class="gallery-item">
-                <a target="_blank" href="img_mountains.jpg">
-                    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-                </a>
-                <div class="desc">Mountains</div>
-                </div>
-                </div>
+            </section>
+            <section class="card">
+                <h2>Find me</h2>
+                <p><a href="https://www.instagram.com/aanya.va101">my instagram</a></p>
+                <button id="cheer">cheer me on</button>
+                <p id="count">0 cheers</p>
             </section>
         </main>
         <footer>
             <p>made by Aanya</p>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
