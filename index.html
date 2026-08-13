@@ -3,6 +3,13 @@
     <head>
         <meta charset="utf-8" />
         <title>Aanya's first web 😱</title>
+          <style>
+                div.gallery {display: flex;flex-wrap: wrap;justify-content: flex-start;}
+                div.gallery-item {margin: 10px;border: 1px solid #f3c026;width: 180px;}
+                div.gallery-item:hover {border: 2px solid #de8735;}
+                div.gallery-item img {width: 100%;height: auto;}
+                div.gallery-item div.desc {padding: 15px;text-align: center;}
+            </style>
     </head>
     <body>
         <header class="hero">
@@ -14,9 +21,62 @@
                 <h2>About me</h2>
                 <p>
                     Im building this page <strong>from an empty folder (peak programmer who 😉,jk jk)</strong>. 
-                    This is my first fully programmed project <em></em>( not counting SelPad-my first and ongoing hardware poject)</em>.
-                    It includes my name, my hobbies and 3 of my random favorite things.  
+                    This is my first fully programmed project <em>( not counting SelPad-my first and ongoing hardware poject)</em>.
+                    It includes my name, my hobbies, A gallery with my favorite space pictures I've captured and 3 of my random favorite things.  
                 </p>
+            </section>     
+            <section class="card">
+                <h2>My hobbies</h2>
+                <ul>
+                <li>Playing Music <em>( i can play about 5 instrumeents,6 if you count the ime i plyed the glockenspiel)</em>
+                    <ul>
+                    <li><em>Flute</em></li>
+                    <li><em>Piccolo</em></li>
+                    <li><em>Guitar</em></li>
+                    <li><em>Drums</em></li>
+                    <li><em>Keyboard</em></li>
+                    </ul>
+                </li>
+                <li>Any craft related to fashion (eg.sewing,crochet and so on)</li>
+                <li>ASTROPHOTOGRAPHY</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Random things I like</h2>
+                <ul>
+                <li>Let Down by radiohead but the choir version</li>
+                <li>Chrysanthemums</li>
+                <li>making stuff especially physically</li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Image Gallery</h2>
+                <div class="gallery">
+                <div class="gallery-item">
+                <a target="_blank" href="img_5terre.jpg">
+                    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Cinque Terre</div>
+                </div>
+                <div class="gallery-item">
+                <a target="_blank" href="img_forest.jpg">
+                    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Green Forest</div>
+                </div>
+                <div class="gallery-item">
+                <a target="_blank" href="img_lights.jpg">
+                    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Northern Lights</div>
+                </div>
+                <div class="gallery-item">
+                <a target="_blank" href="img_mountains.jpg">
+                    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Mountains</div>
+                </div>
+                </div>
             </section>
         </main>
         <footer>
